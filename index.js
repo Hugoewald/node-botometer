@@ -98,7 +98,7 @@ const botometer = function(config) {
         })
         .catch(e => {
           // if error on botometer resolve with null
-          resolve(null);
+          console.log ("Not found");
         })
         .then(botometer => {
           // since we already save full user object,
